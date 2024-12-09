@@ -1,0 +1,31 @@
+.footer {
+	color: black;
+	padding: 2rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.socialIcons {
+	font-size: 2rem;
+	color: black !important;
+	transition: color 0.3s ease-in-out;
+}
+
+.socialIcons:hover {
+	color: #68967D !important;
+}
+
+.smallText {
+	font-size: 0.8rem;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 48em) {
+	.footer {
+		flex-direction: column;
+	}
+}

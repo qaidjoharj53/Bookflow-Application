@@ -1,0 +1,153 @@
+.contact-us {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.reach-us {
+  flex: 1;
+  text-align: left;
+  padding: 0 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Improved Styling for "Reach Us" Section */
+.contact-details {
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-name {
+  margin-bottom: 10px;
+}
+
+.contact-info span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: blue !important;
+  transition: color 0.3s ease;
+}
+
+.contact-detail a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+@media (max-width: 750px) {
+  .left-half,
+  .right-half {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact-us {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+  }
+
+  .contact-form {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .reach-us {
+    padding: 0 20;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
